@@ -1,0 +1,29 @@
+BEST MODEL CONFIGURATION:
+{'mlp__alpha': 0.01, 'mlp__hidden_layer_sizes': (50, 25), 'mlp__learning_rate_init': 0.001}
+Best Cross-Validation F1-Score: 0.6504
+
+OVERFITTING CHECK (TRAIN VS. TEST):
+Train Accuracy: 89.76% | Test Accuracy: 88.89%
+Train F1-Score: 0.6133 | Test F1-Score: 0.5705
+
+FINAL EVALUATION ON UNSEEN DATA (TEST SET)
+Overall Accuracy: 88.89%
+F1-Score (Class 1): 0.5705
+F2-Score (Class 1): 0.5101
+ROC-AUC Score:      0.8974
+PR-AUC Score:       0.6491
+MCC Score:          0.5230
+
+Confusion Matrix:
+[[2010   74]
+ [ 200  182]]
+
+Detailed Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.91      0.96      0.94      2084
+           1       0.71      0.48      0.57       382
+
+    accuracy                           0.89      2466
+   macro avg       0.81      0.72      0.75      2466
+weighted avg       0.88      0.89      0.88      2466
