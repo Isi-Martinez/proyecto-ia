@@ -5,7 +5,7 @@
 - `proyecto.py`: Main script for model training, hyperparameter tuning, and evaluation.
 - `online_shoppers_intention.csv`: Input dataset.
 - `requirements.txt`: Python dependencies required to run the project.
-- `resultados.txt`: File automatically generated when running the script, containing model metrics and results.
+- `results.txt`: File automatically generated when running the script, containing model metrics and results.
 
 ## Prerequisites
 
